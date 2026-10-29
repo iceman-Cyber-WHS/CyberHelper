@@ -1,0 +1,7 @@
+Put the README in this folder
+Open PowerShell as administrator
+run Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+type "a" press ENTER
+run & "$env:USERPROFILE\Desktop\CyberHelper\CyberPatriot-README-Guide.ps1" -ReadmePath "$env:USERPROFILE\Desktop\CyberHelper\README.txt" -OS Windows
+OR if the name is README.bat
+run & "$env:USERPROFILE\Desktop\CyberHelper\CyberPatriot-README-Guide.ps1" -ReadmePath "$env:USERPROFILE\Desktop\CyberHelper\README.bat" -OS Windows
